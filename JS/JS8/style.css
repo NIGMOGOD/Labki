@@ -1,0 +1,53 @@
+#price-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 15px;
+}
+
+#price-input:focus {
+    outline: 1px solid rgb(27, 182, 27);
+    color: rgb(27, 182, 27);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#price-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.current-price {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+    border: 1px solid rgb(144, 144, 144);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.close-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(144, 144, 144);
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 0;
+    border: none;
+    outline: 1px solid rgb(144, 144, 144);
+}
