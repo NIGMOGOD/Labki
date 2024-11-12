@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(19, 18, 18);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    perspective: 500px;
+}
+
+.scrolling-text{
+    top: 900px;
+    color: rgb(236, 197, 23);
+    font-size: 500%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    animation: starwars-animation 30s linear infinite;
+}
+
+@keyframes starwars-animation{
+    from {
+        top: 900px;
+        transform: rotateX(20deg) translateZ(0);
+    }
+    to {
+        top: -6000px;
+        transform: rotateX(20deg) translateZ(-1500px);
+    }
+}
